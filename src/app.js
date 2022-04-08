@@ -30,4 +30,5 @@ export const start = async () => {
   app.get('/api/client/profile/:id', getProfile)
 
   return app
+  console.log(app)
 }
